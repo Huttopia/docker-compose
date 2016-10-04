@@ -1,5 +1,6 @@
 FROM cedvan/ubuntu:14.04.20150206
 MAINTAINER dev@cedvan.com
+MAINTAINER maxime.sifflet@huttopia.com
 
 # Install apt-transport-https
 RUN apt-get -qq update \
